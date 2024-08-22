@@ -1,0 +1,14 @@
+---
+- name: Installing EFS File System on Ubuntu
+  hosts: aws_web_servers
+
+  tasks:
+    - name: Update the Servers
+      apt:
+        update_cache: yes
+
+
+    - name: Installing Packages
+    - name: Cloning the GitHub Repo
+    - name: Executing the Built Script
+    - name: Installing the EFS using the Deb file
